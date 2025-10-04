@@ -1,0 +1,24 @@
+{
+  "name": "baseline-predictor-ai",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Predict future adoption of web features using Baseline + historical signals",
+  "main": "src/index.js",
+  "bin": {
+    "baseline-predictor": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "cli": "node src/cli.js"
+  },
+  "author": "muha Condor",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "commander": "^10.0.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^6.1.0",
+    "web-features": "^1.0.0"
+  }
+}

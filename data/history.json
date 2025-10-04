@@ -1,0 +1,14 @@
+{
+  "view-transitions": {
+    "popularity_growth": 0.65,
+    "notes": "usage rising in single-page apps; several polyfills and libs experimenting"
+  },
+  "css-nesting": {
+    "popularity_growth": 0.85,
+    "notes": "widespread adoption in frameworks and preprocessors"
+  },
+  "html-popover": {
+    "popularity_growth": 0.15,
+    "notes": "experimental, little usage"
+  }
+}
